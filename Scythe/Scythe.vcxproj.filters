@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="disassembler.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImExtensions.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{2c6e85b8-d2ba-44ad-86d7-52dd08982015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\skeleton">
+      <UniqueIdentifier>{55f77e32-ca42-4c43-b16a-353735909e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{3c772f7d-a0bb-494a-bdfb-77c5036e8c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{8ae9c88f-87be-49b5-8eb2-d28aeeaf5573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{0cbe2a64-fb5f-4ec5-ab94-f49c0cf57472}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="disassembler.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="c_function.h">
+      <Filter>engine\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="c_instruction.h">
+      <Filter>engine\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImExtensions.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
