@@ -6,7 +6,7 @@ int main()
 
 	while (1)
 	{
-		ui::update();
+		ui::update();//update
 		std::this_thread::sleep_for(std::chrono::milliseconds(1));
 	}
 }
